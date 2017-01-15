@@ -46,8 +46,8 @@ public class NotificationActivity extends AppCompatActivity {
                     public void onClick(View view) {
 
                         Notification fdetail = getItem(position);
-                        Log.d("-----detail-----",fdetail.getFollowerName());
-                        Log.d("-----detail-----",fdetail.getFollowerId());
+                        //Log.d("-----detail-----",fdetail.getFollowerName());
+                        //Log.d("-----detail-----",fdetail.getFollowerId());
                         DatabaseReference newFollowing = mUserRef.child(fdetail.getFollowerId()).child("following").push();
                         newFollowing.child("id").setValue(Profile.getCurrentProfile().getId());
                         newFollowing.child("name").setValue(Profile.getCurrentProfile().getName());
