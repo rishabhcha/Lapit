@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "536485643153",
+    "firebase_url": "https://lapit-b59e8.firebaseio.com",
+    "project_id": "lapit-b59e8",
+    "storage_bucket": "lapit-b59e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536485643153:android:d1365537a7406c89",
+        "android_client_info": {
+          "package_name": "com.example.rishabh.lapit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536485643153-lao6k1ffhfuhavvajv1k3pobse8kc98f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rishabh.lapit",
+            "certificate_hash": "7DD8E3E17ECA325ACEF7B86271B8F304095238F2"
+          }
+        },
+        {
+          "client_id": "536485643153-usnln7umd5decqekkp4ic1fs45veongt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT1Cp757TDxFLJVlNVYJj2lMNaqkGreqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536485643153-usnln7umd5decqekkp4ic1fs45veongt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
